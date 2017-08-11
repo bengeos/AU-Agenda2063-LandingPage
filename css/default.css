@@ -288,7 +288,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #fdcc4b;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -349,7 +349,7 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#11ABB0;
+   color:#fdcc4b;
 }
 .stats-tabs li a b {
 	display: block;
@@ -361,7 +361,7 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt { margin: 0; color:#fdcc4b; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -436,7 +436,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #11ABB0;
+   background-color: #fdcc4b;
    color: #fff;
 }
 .pagination .inactive,
@@ -464,7 +464,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #a17503;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -815,4 +815,32 @@ properly.
    position: absolute;
 right:    41.5%;
 bottom:   8%;
+}
+
+
+.banner-textt{
+color:#ede7d8;
+  position: absolute;
+right:   42.5%;
+bottom:  82.5%; 
+}
+
+
+.myimage1{
+
+ position: absolute;
+right:   60%;
+bottom:   20%;
+
+padding:1px;
+    
+}
+
+.myimage2{
+
+ position: absolute;
+left:  60%;
+bottom: 21%;
+  padding:1px;  
+  
 }
