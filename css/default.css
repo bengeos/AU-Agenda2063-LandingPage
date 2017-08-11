@@ -473,7 +473,8 @@ input[type="button"] {
 	margin-bottom: 18px;
    border: none;
    cursor: pointer;
-   height: auto;
+   height:auto;
+   width:250px;
 
    -webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -802,6 +803,16 @@ properly.
 	text-align: center !important;
 }
 
+.myimage {
 
-
-
+   margin-left:auto;
+   margin-right:auto;
+   width:150px;
+  
+    
+}
+.myButton{
+   position: absolute;
+right:    41.5%;
+bottom:   8%;
+}

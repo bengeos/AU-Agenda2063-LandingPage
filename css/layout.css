@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #ffb000; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #ffb000; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -194,7 +194,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #ffb000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -223,7 +223,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .download .button:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: #ffb000;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -243,7 +243,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a:hover, #resume a:focus { color: #ffb000; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -552,7 +552,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #ffb000; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -627,7 +627,7 @@ call-to-action .button {
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
-   color: #0D0D0D;
+   color: #ffb000;
 }
 #call-to-action p span {
 	font-family: 'opensans-semibold', sans-serif; 
@@ -796,7 +796,7 @@ call-to-action .button {
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a:hover, #contact a:focus { color: #ffb000; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -871,7 +871,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
+	color: #ffb000;
 	background: #fff;
 }
 #contact span.required {
@@ -931,6 +931,8 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
+   background: #161415 url(../images/youth.png) no-repeat top center;
+   background-size: cover !important;
 }
 
 footer a, footer a:visited { color: #525252; }
@@ -954,7 +956,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #ffb000;
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -1002,5 +1004,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #ffb000; }
 
